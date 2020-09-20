@@ -1,4 +1,4 @@
-let listItem = document.querySelectorAll("li.item");
+const listItem = document.querySelectorAll("li.item");
 console.log(`В списке ${listItem.length} категории.`);
 listItem.forEach((element) => {
   console.log(
