@@ -1,1 +1,1 @@
-# goit-js-hw-07
+https://adya27.github.io/goit-js-hw-07/.
