@@ -14,7 +14,11 @@ function onInputChange(event) {
   let amount = event.currentTarget.value;
   //   console.log("onInputChange -> amount", amount);
 
-  for (let i = 0; i < amount; i += 1) {
+  if (amount > 100) {
+    alert("Максимальное количество кубиков - не более 100");
+  }
+
+  for (let i = 0; i < amount && i <= 100; i += 1) {
     string += `<div
         style="
           display: block;
